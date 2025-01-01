@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "SNUProxy URL Redirect",
+    "version": "0.1",
+    "description": "Add snu proxy prefix to any URL",
+    "permissions": ["activeTab", "tabs", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "action": {
+      "default_title": "SNUProxy URL Redirect"
+    }
+  }
